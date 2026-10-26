@@ -6,6 +6,14 @@ grants, bounties, service agreements, and escrow systems that need a neutral
 structured decision but want to keep custody and payment logic in a separate
 contract.
 
+## Studionet deployment
+
+- Contract: `0x2e565d99e1a82d87EBe4BE9a009c6cAf7F4b7654`
+- Explorer: https://explorer-studio.genlayer.com/address/0x2e565d99e1a82d87EBe4BE9a009c6cAf7F4b7654
+- Deployment status: `FINALIZED`
+- GenVM result: `SUCCESS`
+- Consensus result: `Accepted`
+
 ## Why this primitive exists
 
 A deterministic contract can check a timestamp or a signature, but it cannot
@@ -121,7 +129,8 @@ pip install genlayer-test
 pytest tests/ -v
 ```
 
-Use Studio Mode for a final multi-validator integration run before deployment.
+The published Studionet deployment was executed in Normal (Full Consensus)
+mode and reached `FINALIZED` with a successful GenVM result.
 
 ## Design boundary
 
