@@ -22,8 +22,14 @@ The repository includes readable source, architecture and security documentation
 
 ## Evidence / repository
 
-Replace this line with the public GitHub repository URL before submission.
+Source and documentation:
+https://github.com/evrendag/milestone-verdict-genlayer
+
+Finalized Studionet contract:
+https://explorer-studio.genlayer.com/address/0x2e565d99e1a82d87EBe4BE9a009c6cAf7F4b7654
 
 ## Test proof
 
 `4 passed` with the official `genlayer-test` direct test runner.
+
+Studionet deployment: `FINALIZED` / GenVM `SUCCESS` / Consensus `Accepted`.
